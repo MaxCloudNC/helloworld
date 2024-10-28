@@ -2,7 +2,7 @@ trigger:
   - main  # Change to your default branch name
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'Default'
 
 steps:
   - script: |
