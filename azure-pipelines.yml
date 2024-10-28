@@ -1,0 +1,11 @@
+trigger:
+  - main  # Change to your default branch name
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - script: |
+      echo "Building the application..."
+      node index.js
+    displayName: 'Run Hello World'
